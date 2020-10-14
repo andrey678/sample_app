@@ -4,6 +4,7 @@ gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'rails',      '6.0.3.3'
 gem 'puma',       '4.3.5'
 gem 'sass-rails', '6.0.0'
+gem 'bootstrap-sass',             '3.4.1'
 gem 'webpacker',  '4.2.2'
 gem 'turbolinks', '5.2.1'
 gem 'jbuilder',   '2.10.0'
