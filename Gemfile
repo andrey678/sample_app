@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem 'rails',      '6.0.3.3'
+gem 'bcrypt'
 gem 'puma',       '4.3.5'
 gem 'sass-rails', '6.0.0'
 gem 'bootstrap-sass',             '3.4.1'
